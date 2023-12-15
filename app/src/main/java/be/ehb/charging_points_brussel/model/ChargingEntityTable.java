@@ -3,10 +3,13 @@ package be.ehb.charging_points_brussel.model;
 // 1
 
 import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 @Entity
 public class ChargingEntityTable {
 
+    @PrimaryKey(autoGenerate = true)
+    private int id;
     private String typedut;         // LAADPALEN
     private String gemeente;        // GEMEENTE
     private long cp;                // POSTCODE
