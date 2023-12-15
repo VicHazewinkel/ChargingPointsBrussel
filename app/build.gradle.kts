@@ -35,6 +35,13 @@ dependencies {
 
     implementation("com.squareup.okhttp3:okhttp:4.11.0")                // <-- for rest api dependency
 
+    implementation("androidx.navigation:navigation-fragment:2.7.5")     // <-- for navigation dependency
+    implementation("androidx.navigation:navigation-ui:2.7.5")           // <-- for navigation dependency
+    val room_version = "2.6.1"                                          // <-- room dependency
+
+    implementation("androidx.room:room-runtime:$room_version")          // <-- room dependency
+    annotationProcessor("androidx.room:room-compiler:$room_version")    // <-- room dependency
+
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
