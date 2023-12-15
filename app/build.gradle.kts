@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "be.ehb.charging_points_brussel"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "be.ehb.charging_points_brussel"
         minSdk = 26
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
