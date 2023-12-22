@@ -18,8 +18,8 @@ public class ChargingEntityTable {
 
     public ChargingEntityTable() {
     }
-    public ChargingEntityTable(int id, String typedut, String gemeente, long cp, String rue, long nr) {
-        this.id = id;
+    public ChargingEntityTable(String typedut, String gemeente, long cp, String rue, long nr) {
+
         this.typedut = typedut;
         this.gemeente = gemeente;
         this.cp = cp;

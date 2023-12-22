@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
                         JSONObject temp = postsJSONArray.getJSONObject(i);
 
                         ChargingEntityTable currentPost = new ChargingEntityTable(
-                                temp.getInt("id"),   //--> The parsed JSON data is used to create 'ChargingEntityTable' objects
+                                //temp.getInt("id"),   //--> The parsed JSON data is used to create 'ChargingEntityTable' objects
                                 temp.getString("typedut"),
                                 temp.getString("gemeente"),
                                 temp.getLong("cp"),
@@ -80,6 +80,8 @@ public class MainActivity extends AppCompatActivity {
                                 temp.getLong("nr")
                         );
 
+                        //Todo: controleren of de data in de database zit
+                        // if (currentPost.getId() == 0) continue;                                     //--> If the 'id' field is 0, the object is skipped (this is the case for the first object in the array
 
                         viewModel.insertData(currentPost); //insertData van DAO                     //--> The 'ChargingEntityTable' objects are inserted into the database (inserted into a ViewModel)
                     }
