@@ -16,7 +16,7 @@ public abstract class ChargingDatabase extends RoomDatabase {
             // maak database verbinding
             INSTANCE = Room.databaseBuilder(context,
                     ChargingDatabase.class,
-                    "database")
+                    "database")         // moet dezelfde naam zijn als in de DAO zo ja welke?
                     .build();
         }
         return INSTANCE;

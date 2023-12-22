@@ -18,12 +18,21 @@ public class ChargingEntityTable {
 
     public ChargingEntityTable() {
     }
-    public ChargingEntityTable(String typedut, String gemeente, long cp, String rue, long nr) {
+    public ChargingEntityTable(int id, String typedut, String gemeente, long cp, String rue, long nr) {
+        this.id = id;
         this.typedut = typedut;
         this.gemeente = gemeente;
         this.cp = cp;
         this.rue = rue;
         this.nr = nr;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getTypedut() {
