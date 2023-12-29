@@ -4,10 +4,10 @@
 <ul>
 <li>bruxellesdata. (2023, 29 December). API . Charging points for electric cars, <br> https://bruxellesdata.opendatasoft.com/explore/dataset/bornes-de-recharge-pour-voitures-electriques/api/</li>
 <li>codepath. (2023, 29 December). Creating and Using Fragments, <br> https://guides.codepath.com/android/creating-and-using-fragments</li>
-<li>developer.android. (2023, 29 December). SQLiteOpenHelper, https://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper</li>
-<li>developer.android. (2023, 29 December). Accessing data using Room DAOs, https://developer.android.com/training/data-storage/room/accessing-data</li>
-<li>developer.android. (2023, 29 December). RecyclerView, https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView</li>
-<li>developer.android. (2023, 29 December). RecyclerView.Adapter, https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView.Adapter</li>
-<li>codepath. (2023, 29 December). Using-OkHttp, https://guides.codepath.com/android/Using-OkHttp</li>
-<li>codepath. (2023, 29 December). converting json to models, https://guides.codepath.com/android/converting-json-to-models</li>
+<li>developer.android. (2023, 29 December). SQLiteOpenHelper, <br> https://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper</li>
+<li>developer.android. (2023, 29 December). Accessing data using Room DAOs, <br> https://developer.android.com/training/data-storage/room/accessing-data</li>
+<li>developer.android. (2023, 29 December). RecyclerView, <br> https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView</li>
+<li>developer.android. (2023, 29 December). RecyclerView.Adapter, <br> https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView.Adapter</li>
+<li>codepath. (2023, 29 December). Using-OkHttp, <br> https://guides.codepath.com/android/Using-OkHttp</li>
+<li>codepath. (2023, 29 December). converting json to models, <br> https://guides.codepath.com/android/converting-json-to-models</li>
 </ul>
