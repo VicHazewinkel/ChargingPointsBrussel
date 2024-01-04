@@ -15,7 +15,7 @@ import be.ehb.charging_points_brussel.R;
 import be.ehb.charging_points_brussel.model.ChargingEntityTable;
 
 
-public class ChargingViewAdapter extends RecyclerView.Adapter<ChargingViewAdapter.ViewHolder>{ // extends RecyclerView.Adapter<ChargingViewAdapter.ViewHolder> {    // idk kent ViewHolder niet for some reason
+public class ChargingViewAdapter extends RecyclerView.Adapter<ChargingViewAdapter.ViewHolder>{
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView typedutTV, gemeenteTV, cpTV, rueTV, nrTV;
@@ -65,9 +65,7 @@ public class ChargingViewAdapter extends RecyclerView.Adapter<ChargingViewAdapte
         return items.size();
     }
 
-    //
-    //referencing "adapter" in SQLite
-    //
+
 
 
 

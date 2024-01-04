@@ -7,5 +7,13 @@
     <fragment
         android:id="@+id/overviewFragment"
         android:name="be.ehb.charging_points_brussel.view.OverviewFragment"
-        android:label="OverviewFragment" />
+        android:label="OverviewFragment" >
+        <action
+            android:id="@+id/action_overviewFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="be.ehb.charging_points_brussel.view.DetailsFragment"
+        android:label="DetailsFragment" />
 </navigation>
