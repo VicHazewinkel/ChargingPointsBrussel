@@ -2,7 +2,7 @@
 <h3>(Android App)</h3>
 <h4>Beschrijving</h4>
 <p>Gemaakt in Android Studio met Java.</p>
-<p>Het project bestaat uit 3 branches, hier is voor gekozen om er voor te zorgen dat er altijd een werkende master branch is.</p>
+<p>Het project bestaat uit meerdere branches, hier is voor gekozen om er voor te zorgen dat er altijd een werkende master branch is.</p>
 <h6>Master branch</h6>
 <ul style="list-style-type: square;">
 <li>Bevat een Api Call</li>
