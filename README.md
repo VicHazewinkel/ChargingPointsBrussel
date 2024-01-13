@@ -14,6 +14,11 @@
 <li>Via de DetailsFragment word het geselecteerde item getoond op een fragment pagina</li>
 <li>(Dit werkt niet zoals gewenst en zorgt voor een crash daarom staat het in een aparte branch)&nbsp;</li>
 </ul>
+<h6>search Branch</h6>
+<ul style="list-style-type: square;">
+<li></li>
+</ul>
+
 
 <h4>Bronnen</h4>
 <h6>Master Branch</h6>
